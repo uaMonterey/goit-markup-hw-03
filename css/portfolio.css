@@ -100,12 +100,23 @@
   --third-bgc: #f5f4fa;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,  /* всем элементам */
+*::before,  /* всем элементам до и после */
+*::after {
+  box-sizing: inherit; /*наследовать размер*/
+}
+
 /* Страница Портфолио */
 
 .list {
   list-style: none;
 }
 body {
+  margin: 0;
   background-color: var(--main-bgc);
 
   font-family: 'Roboto', sans-serif;
