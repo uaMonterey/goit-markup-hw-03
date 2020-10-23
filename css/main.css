@@ -76,8 +76,6 @@
   min-height: 75px;
 }
 
-/* Чем мы занимаемся */
-
 .features-container .list {
   display: flex;
   justify-content: space-between;
@@ -87,8 +85,34 @@
   width: calc((100% - 90px) / 4);
 }
 
-/* Стилизация секции Наша команда */
+/* Чем мы занимаемся UL выступает за контейнер!!!!!! */
 
+.works-title {
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 375px;
+}
+.works .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+
+.works .list:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.works .item {
+  margin-left: 30px;
+  margin-top: 50px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+/* Стилизация секции Наша команда */
 .team {
   background-color: var(--third-bgc);
 }
