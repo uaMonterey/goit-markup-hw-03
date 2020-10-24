@@ -150,7 +150,7 @@ p {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* Главная страница */
@@ -240,4 +240,49 @@ body {
 
 .header-contacts .item + .item {
   margin-left: 50px;
+}
+
+/* Стилизация подвала  */
+
+.footer {
+  background-color: #2f303a;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-container .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.logo-footer {
+  color: var(--white);
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-list p {
+  font-style: normal;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-list a {
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
