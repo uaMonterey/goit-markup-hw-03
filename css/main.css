@@ -179,18 +179,37 @@
   font-size: 14px;
   line-height: 1.71;
 }
-
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-container .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 .logo-footer {
   color: var(--white);
 }
 
-.footer-contacts p {
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-list p {
   font-style: normal;
   text-decoration: none;
   color: #ffffff;
 }
 
-.footer-contacts a {
+.footer-list a {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
