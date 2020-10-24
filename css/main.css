@@ -90,16 +90,13 @@
 .works-title {
   text-align: center;
   margin-top: 0px;
-  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  min-width: 375px;
 }
 .works .list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
 }
 
 .works .list:nth-child(3n + 1) {
@@ -121,10 +118,8 @@
 .team-title {
   text-align: center;
   margin-top: 0px;
-  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  min-width: 264px;
 
   font-weight: 700;
   font-size: 36px;
@@ -137,7 +132,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
 }
 
 .team .item {
