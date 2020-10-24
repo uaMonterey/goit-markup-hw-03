@@ -73,7 +73,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  min-height: 75px;
 }
 
 .features-container .list {
@@ -85,7 +84,7 @@
   width: calc((100% - 90px) / 4);
 }
 
-/* Чем мы занимаемся UL выступает за контейнер!!!!!! */
+/* Чем мы занимаемся */
 
 .works-title {
   text-align: center;
