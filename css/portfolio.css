@@ -1,4 +1,8 @@
 /* Стилизация портфолио */
+.page-header {
+  border: 1px solid #ececec;
+  border-top-color: transparent;
+}
 
 .portfolio-container .portfolio-list {
   display: flex;

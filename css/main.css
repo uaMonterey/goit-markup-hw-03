@@ -86,6 +86,10 @@
 
 /* Чем мы занимаемся */
 
+.works-section {
+  padding-top: 0px;
+}
+
 .works-title {
   text-align: center;
   margin-top: 0px;
