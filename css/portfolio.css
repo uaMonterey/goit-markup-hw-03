@@ -27,22 +27,9 @@
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  outline: 1px solid #eeeeee;
+  /* outline: 1px solid #eeeeee; */
 }
 
-.card-set-list .portfolio-title {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
-}
-
-.card-set-list p {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -50,7 +37,11 @@
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.portfolio p {
+
+.portfolio .discription {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+
   font-size: 16px;
   line-height: 1.88;
 }
