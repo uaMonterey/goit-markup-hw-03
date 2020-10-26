@@ -1,7 +1,6 @@
 /* Стилизация портфолио */
 .page-header {
-  border: 1px solid #ececec;
-  border-top-color: transparent;
+  border-bottom: 1px solid #ececec;
 }
 
 .portfolio-container .portfolio-list {
